@@ -1,0 +1,60 @@
+.indexdiv {
+    margin: 5px 10px 5px 10px;
+    height: 100%;
+}
+
+.splash {
+    font-size: 30px;
+}
+
+.socialdiv {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.socialbutton {
+    width: fit-content;
+    flex: 1 1 160px;
+    margin-right: 6px;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: rgb(85, 0, 85);
+    transition: 250ms;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.socialbutton img {
+    float: left;
+}
+
+.socialbutton p {
+    color: rgb(191, 191, 191);
+    float: right;
+}
+
+.socialbutton a {
+    float: right;
+}
+
+.socialdetails {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socialbutton:link {
+    color: white;
+}
+
+.socialbutton:visited {
+    color: white;
+}
+
+.socialbutton:hover {
+    background-color: rgb(112, 0, 112);
+    transition: 250ms;
+    box-shadow: 0px 0px 10px rgba(36, 36, 36, 0.5);
+}
